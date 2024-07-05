@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px; /* Added margin for separation */
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            border-top: 3px solid midnightblue; /* Double the width */
+            border-bottom: 3px solid midnightblue; /* Double the width */
+            color: midnightblue;
+            font-weight: normal; /* Unbold the headers */
+            font-size: 0.875em; 
+        }
+        th:first-child {
+            border-left: none;
+        }
+        th:last-child {
+            border-right: none;
+        }
+        .details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .left-partition, .right-partition {
+            width: 48%;
+        }
+        .left-partition p, .right-partition p {
+            margin: 0;
+        }
+    </style>
+    <title>Midnight Blue Striped Table</title>
+
+    
+</head>
+<body>
+    <div class="details">
+        <div class="left-partition">
+            <p>Name</p>
+            <p>HOUSE NUMBER</p>
+            <p>TOTAL DEPOSITS</p>
+            <p>TOTAL WITHDRAWALS</p>
+        </div>
+        <div class="right-partition">
+            <p>STATEMENT DATE</p>
+            <p>BRANCH NAME</p>
+            <p>ACCOUNT TYPE</p>
+            <p>ACCOUNT NUMBER</p>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 3, Cell 1</td>
+                <td>Row 3, Cell 2</td>
+                <td>Row 3, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

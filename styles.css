@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    max-width: 1500px; /* Adjust the max-width as needed */
+    max-width: 1400px; /* Adjust the max-width as needed */
     margin: 0 auto; /* Center align the container */
 }
 
@@ -19,15 +19,14 @@ body {
     margin-bottom: 20px;
 }
 
-.left-heading {
-    font-size: 0.9em;
-    font-weight: normal;
+.left-heading h2 {
+    font-size: 1.2em;
+    font-weight: normal; /* Unbold the text */
 }
 
-.right-image {
-    width: 200px; /* Adjusted width for the image */
+.right-image img {
+    width: 150px; /* Adjusted width for the image */
     height: auto; /* Maintain aspect ratio */
-    padding: 20px;
 }
 
 .details {
